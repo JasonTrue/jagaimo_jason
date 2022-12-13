@@ -1,0 +1,14 @@
+---
+layout: _layout.slime
+---
+
+h1.title Jason Truesdell
+
+.main
+  .social
+    ul
+      li
+        a[href="https://mastodon.social/@JasonTrue" rel="me"] @JasonTrue@Mastodon.social
+      li
+        a[href="https://www.instagram.com/jasntru/" rel="me"] Instagram: JasnTru
+  = include(@env, "_includes/footer.slime")
