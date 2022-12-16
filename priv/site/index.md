@@ -12,9 +12,17 @@ I'm from Seattle, WA, USA. Much of my childhood and all of my post-university ad
 or near Seattle. I've also lived in Knoxville, TN, Exton, PA and attended university in Greencastle, IN, and Marburg,
 Germany.
 
-My work involves hacking Elixir and occasional C++ and Python at IndustrialML, where I serve as Principal Software
-Architect. On paper, I'm the managing director of the Japan subsidiary, IndustrialML GK. This means almost nothing
-except when it comes to filing various bits of paperwork, because we're still very small.
+I like cooking. And eating. I'm vegetarian. But I'm in Japan, so I have a sense of humor about it.
+
+My work involves hacking Elixir and occasional C++ and Python at [IndustrialML](https://industrialml.com/), where I serve
+as Principal Software  Architect. On paper, I'm the managing director of the Japan subsidiary, IndustrialML GK.
+This means almost nothing  except when it comes to filing various bits of paperwork, because we're still very small.
+If you have a factory and it needs, to be buzzwordy, Digital Transformation, give us a call.
+
+We would like consulting clients. If your company has a problem and you need software to solve it, get in touch with
+me. [Build With IML](https://buildwithlml.com/) We know how to build telemetry, alerting, reporting, IoT
+devices, image processing, and machine learning solutions. Our team has people with web, mobile, backend, and infra
+skills in Elixir, Ruby, C#, Dart/Flutter and beyond. 
 
 In previous lives, I've worked for Microsoft, Zillow, The Seattle Times, Getty Images, and Comcast Technology Solutions.
 I've consulted on projects at Dendreon, Windermere, ReallyEnglish, Circlace and others.
