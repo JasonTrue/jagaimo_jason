@@ -20,9 +20,9 @@ This means almost nothing  except when it comes to filing various bits of paperw
 If you have a factory and it needs, to be buzzwordy, Digital Transformation, give us a call.
 
 We would like consulting clients. If your company has a problem and you need software to solve it, get in touch with
-me. [Build With IML](https://buildwithlml.com/) We know how to build telemetry, alerting, reporting, IoT
+me. We know how to build telemetry, alerting, reporting, IoT
 devices, image processing, and machine learning solutions. Our team has people with web, mobile, backend, and infra
-skills in Elixir, Ruby, C#, Dart/Flutter and beyond. 
+skills in Elixir, Ruby, C#, Dart/Flutter and beyond. [Build With IML](https://buildwithlml.com/) 
 
 In previous lives, I've worked for Microsoft, Zillow, The Seattle Times, Getty Images, and Comcast Technology Solutions.
 I've consulted on projects at Dendreon, Windermere, ReallyEnglish, Circlace and others.
