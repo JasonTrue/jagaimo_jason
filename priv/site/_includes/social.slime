@@ -3,25 +3,42 @@ social_media:
   mastodon:
     text: @JasonTrue@Mastodon.social
     url: https://Mastodon.social/@JasonTrue
+    ranking: 1
   instagram:
     url: https://www.instagram.com/jasntru/
+    ranking: 1
   facebook:
     url: https://www.facebook.com/jasontrue
+    ranking: 2
   linkedin:
     url: https://www.linkedin.com/in/jasontruesdell/
+    ranking: 2
   github:
     url: https://github.com/JasonTrue
+    ranking: 2
   stackoverflow:
     url: https://stackoverflow.com/users/13433/jasontrue?tab=profile
+    ranking: 2
+  cohost:
+    url: https://jasontrue.cohost.org/
+    ranking: 3
+  postnews:
+    name: Post.news
+    url: https://post.news/jasontrue
+    ranking: 3
   flickr:
     url: https://www.flickr.com/people/jagaimo/
+    ranking: 4
   yelp:
     url: https://www.yelp.com/user_details?userid=JQhjkZhA_PsAcpOr8xAh_Q
+    ranking: 4
   quora:
     url: https://www.quora.com/profile/Jason-Truesdell
+    ranking: 4
   youtube:
     url: https://www.youtube.com/user/beducky
+    ranking: 4
 ---
 ul
   = Enum.map @social_media, fn {network, info} ->
-   li = link @env, info[:text] || String.capitalize(to_string(network)), to: info[:url], rel: "me"
+   li = link @env, info[:text] || info[:name] || String.capitalize(to_string(network)), to: info[:url], rel: "me"
