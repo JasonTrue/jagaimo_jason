@@ -28,7 +28,9 @@ defmodule JagaimoJason.MixProject do
   # Type `mix help deps` for examples and options.
   defp deps do
     [
-      {:still, "~> 0.8.0"}
+      {:still, "~> 0.8.0"},
+    #Using this to support tailwind (maybe; could back out)
+      {:nodejs, "~> 2.0"}
     ]
   end
 end

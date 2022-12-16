@@ -1,6 +1,7 @@
 :root {
   --c-black: #222;
   --c-white: #f3eac3;
+  --c-border: #234567;
 }
 
 html {
@@ -22,4 +23,6 @@ html {
   margin: 0 auto;
 }
 
-.social
+.social li {
+  border-color: var(--c-border)
+}

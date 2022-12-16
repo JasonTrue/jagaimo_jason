@@ -1,0 +1,27 @@
+---
+social_media:
+  mastodon:
+    text: @JasonTrue@Mastodon.social
+    url: https://Mastodon.social/@JasonTrue
+  instagram:
+    url: https://www.instagram.com/jasntru/
+  facebook:
+    url: https://www.facebook.com/jasontrue
+  linkedin:
+    url: https://www.linkedin.com/in/jasontruesdell/
+  github:
+    url: https://github.com/JasonTrue
+  stackoverflow:
+    url: https://stackoverflow.com/users/13433/jasontrue?tab=profile
+  flickr:
+    url: https://www.flickr.com/people/jagaimo/
+  yelp:
+    url: https://www.yelp.com/user_details?userid=JQhjkZhA_PsAcpOr8xAh_Q
+  quora:
+    url: https://www.quora.com/profile/Jason-Truesdell
+  youtube:
+    url: https://www.youtube.com/user/beducky
+---
+ul
+  = Enum.map @social_media, fn {network, info} ->
+   li = link @env, info[:text] || String.capitalize(to_string(network)), to: info[:url], rel: "me"

@@ -1,0 +1,8 @@
+---
+layout: _layout.slime
+---
+
+aside
+    = include(@env, "_includes/social.slime")
+= @children
+= include(@env, "_includes/footer.slime")
