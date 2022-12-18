@@ -3,13 +3,13 @@
 @tailwind utilities;
 
 
-main h1 { @apply text-5xl;  }
-main h2 { @apply text-4xl;  }
-main h3 { @apply text-3xl;  }
-main h4 { @apply text-2xl;  }
-main h5 { @apply text-xl;  }
-main h6 { @apply text-lg;  }
+article h1 { @apply text-5xl;  }
+article h2 { @apply text-4xl;  }
+article h3 { @apply text-3xl;  }
+article h4 { @apply text-2xl;  }
+article h5 { @apply text-xl;  }
+article h6 { @apply text-lg;  }
 
-main p { @apply text-base pt-4 text-justify;}
-main a:hover { @apply bg-blue-100; }
-main a:link {@apply underline text-gray-700;}
+article p { @apply text-base pt-4 text-justify;}
+article a:hover { @apply bg-blue-100; }
+article a:link {@apply underline text-gray-700;}

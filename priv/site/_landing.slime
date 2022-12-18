@@ -1,11 +1,15 @@
 ---
 layout: _layout.slime
 ---
-div[class="flex"]
-  = include(@env, "_includes/social.slime")
-  main[class="bg-white flex-auto min-w-64 mx-auto p-4"] = @children
-  div[class="mx-max-w-sm p-4 min-w-16 max-w-32"]
+div[id="top" class="flex flex-col sm:flex-row"]
+  main[class="sm:order-2 bg-white flex-auto min-w-64 mx-auto md:p-4"]
+    a[href="#social_media" class="sm:hidden px-6 py-3 border-white text-stone-200 no-underline bg-red-900 rounded-lg hover:bg-red-500"] Jason's Social Media ↓
+    article[class="mt-4 p-4 sm:mt-0"] = @children
+  div[id="bio" class="sm:order-3 mx-max-w-sm p-4 min-w-16 max-w-32"]
     = responsive_image("/images/content/jason.png", class: "rounded-lg", alt: "Headshot of Jason in red geometric-patterned shirt with temple greenery in background")
     = include(@env, "_includes/bio.md")
+  aside[id="social_media" class="social sm:order-1 flex-0 bg-red-800 break-words min-w-32" arial-label="sidebar"] = include(@env, "_includes/social.slime")
+  a[href="#top" class="sm:hidden px-6 py-3 m-2 border-white text-stone-200 no-underline bg-red-900 rounded-lg hover:bg-red-500"]Top ↑
 
-= include(@env, "_includes/footer.slime")
+footer[class="flex p-4 bg-stone-700 w-auto"]
+  = include(@env, "_includes/footer.slime")

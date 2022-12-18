@@ -59,7 +59,6 @@ social_media:
     icon: "/images/icons/networks/youtube-svgrepo-com.svg"
     ranking: 4
 ---
-aside[class="social flex-0 bg-red-800 break-words min-w-32" arial-label="sidebar"]
-  ul[class="overflow-y-auto py-4 px-3"]
-    = Enum.map @social_media, fn network ->
-     li = include(@env, "_includes/social_network.slime", info: network)
+ul[class="overflow-y-auto py-4 px-3"]
+  = Enum.map @social_media, fn network ->
+   li = include(@env, "_includes/social_network.slime", info: network)
