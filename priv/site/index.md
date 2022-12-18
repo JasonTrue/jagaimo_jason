@@ -5,7 +5,8 @@ title: About Jason
 
 # Jason Truesdell
 
-Resident of Kawasaki, Japan. I've been here since 2017.,
+Resident of Kawasaki, Japan. I've been here since 2017.
+
 I'm from Seattle, WA, USA. Much of my childhood and all of my post-university adult life prior to moving to Japan was in
 or near Seattle. I've also lived in Knoxville, TN, Exton, PA and attended university in Greencastle, IN, and Marburg,
 Germany.
