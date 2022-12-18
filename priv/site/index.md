@@ -1,8 +1,6 @@
 ---
 layout: _landing.slime
 title: About Jason
-# <%= responsive_image("images/content/jason.png" %> Gets safe-htmled into entities, let's fix next time
-#    alt: "Headshot of Jason in red geometric-patterned shirt with temple greenery in background") %>
 ---
 
 # Jason Truesdell

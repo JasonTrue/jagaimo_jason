@@ -1,7 +1,7 @@
 ---
 social_media:
   - network: mastodon
-    text: @JasonTrue@Mastodon.social
+    text: @JasonTrue&thinsp;@Mastodon.social
     url: https://Mastodon.social/@JasonTrue
     icon: "/images/icons/networks/mastodon-svgrepo-com.svg"
     ranking: 1
@@ -59,7 +59,7 @@ social_media:
     icon: "/images/icons/networks/youtube-svgrepo-com.svg"
     ranking: 4
 ---
-aside[class="social flex-initial bg-blue-100" arial-label="sidebar"]
-  ul[class="overflow-y-auto py-4 px-3 rounded"]
+aside[class="social flex-0 bg-red-800 break-words min-w-32" arial-label="sidebar"]
+  ul[class="overflow-y-auto py-4 px-3"]
     = Enum.map @social_media, fn network ->
      li = include(@env, "_includes/social_network.slime", info: network)

@@ -1,0 +1,5 @@
+---
+---
+- Principal software architect [IndustrialML, Inc](https://www.industrialml.com/)
+- [My resume (a bit dated)](https://jasontrue.github.io/resume.html)
+- [My ancient blog (a bit broken)](https://blog.jagaimo.com/)
