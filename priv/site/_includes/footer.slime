@@ -1,4 +1,4 @@
-footer
+footer[class="p-4 bg-blue-500"]
   p Copyright © 2022 Jason Truesdell. All Rights Reserved
   div
-    a[href="https://github.com/JasonTrue/jagaimo_jason/"]Source code
+    a[href="https://github.com/JasonTrue/jagaimo_jason/"] Source code

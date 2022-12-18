@@ -1,8 +1,8 @@
 ---
 layout: _layout.slime
 ---
+div[class="flex"]
+  = include(@env, "_includes/social.slime")
+  main[class="bg-white container mx-auto p-4"] = @children
 
-aside
-    = include(@env, "_includes/social.slime")
-= @children
 = include(@env, "_includes/footer.slime")

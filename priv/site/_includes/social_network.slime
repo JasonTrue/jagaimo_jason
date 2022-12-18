@@ -1,0 +1,6 @@
+div[class="max-w-tiny ease-in-out duration-200 rounded overflow-hidden shadow-lg mb-4 p-2 text-center bg-white hover:bg-gray-100 hover:border-white hover:border-blue-800 border-2 hover:scale-110"]
+  a[href=@info["url"]]
+    div[class="text-xs pb-2"] = @info["name"] || String.capitalize(@info["network"])
+    = if @info["icon"] do
+      img[src=@info["icon"] class="mx-auto" width="50" height="50"]
+    div[class="text-sm pt-2"] = @info["text"]

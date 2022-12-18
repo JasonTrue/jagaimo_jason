@@ -1,44 +1,65 @@
 ---
 social_media:
-  mastodon:
+  - network: mastodon
     text: @JasonTrue@Mastodon.social
     url: https://Mastodon.social/@JasonTrue
+    icon: "/images/icons/networks/mastodon-svgrepo-com.svg"
     ranking: 1
-  instagram:
+  - network: instagram
+    text: jasntru
     url: https://www.instagram.com/jasntru/
+    icon: "/images/icons/networks/instagram-svgrepo-com.svg"
     ranking: 1
-  facebook:
+  - network: facebook
     url: https://www.facebook.com/jasontrue
+    text: jasontrue
+    icon: "/images/icons/networks/facebook-svgrepo-com.svg"
     ranking: 2
-  linkedin:
+  - network: linkedin
     url: https://www.linkedin.com/in/jasontruesdell/
+    text: jasontruesdell
+    icon: "/images/icons/networks/linkedin-svgrepo-com.svg"
     ranking: 2
-  github:
+  - network: github
     url: https://github.com/JasonTrue
+    text: JasonTrue
+    icon: "/images/icons/networks/github-svgrepo-com.svg"
     ranking: 2
-  stackoverflow:
+  - network: stackoverflow
     url: https://stackoverflow.com/users/13433/jasontrue?tab=profile
+    text: ""
+    icon: "/images/icons/networks/Stack_Overflow_icon.svg"
     ranking: 2
-  cohost:
+  - network: cohost
     url: https://jasontrue.cohost.org/
+    text: jasontrue
     ranking: 3
-  postnews:
+  - network: postnews
     name: Post.news
     url: https://post.news/jasontrue
+    text: jasontrue
     ranking: 3
-  flickr:
+  - network: flickr
     url: https://www.flickr.com/people/jagaimo/
+    icon: "/images/icons/networks/flickr-svgrepo-com.svg"
+    text: jagaimo
     ranking: 4
-  yelp:
+  - network: yelp
     url: https://www.yelp.com/user_details?userid=JQhjkZhA_PsAcpOr8xAh_Q
+    icon: "/images/icons/networks/yelp-svgrepo-com.svg"
+    text: ""
     ranking: 4
-  quora:
+  - network: quora
     url: https://www.quora.com/profile/Jason-Truesdell
+    icon: "/images/icons/networks/quora-svgrepo-com.svg"
+    text: ""
     ranking: 4
-  youtube:
+  - network: youtube
     url: https://www.youtube.com/user/beducky
+    icon: "/images/icons/networks/youtube-svgrepo-com.svg"
     ranking: 4
 ---
-ul
-  = Enum.map @social_media, fn {network, info} ->
-   li = link @env, info[:text] || info[:name] || String.capitalize(to_string(network)), to: info[:url], rel: "me"
+aside[class="social flex-initial bg-blue-100" arial-label="sidebar"]
+  ul[class="overflow-y-auto py-4 px-3 rounded"]
+    = Enum.map @social_media, fn network ->
+     li = include(@env, "_includes/social_network.slime", info: network)

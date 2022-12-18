@@ -1,13 +1,13 @@
 ---
 layout: _landing.slime
 title: About Jason
-
+# <%= responsive_image("images/content/jason.png" %> Gets safe-htmled into entities, let's fix next time
+#    alt: "Headshot of Jason in red geometric-patterned shirt with temple greenery in background") %>
 ---
 
 # Jason Truesdell
 
-Resident of Kawasaki, Japan. I've been here since 2017.
-
+Resident of Kawasaki, Japan. I've been here since 2017.,
 I'm from Seattle, WA, USA. Much of my childhood and all of my post-university adult life prior to moving to Japan was in
 or near Seattle. I've also lived in Knoxville, TN, Exton, PA and attended university in Greencastle, IN, and Marburg,
 Germany.
@@ -29,4 +29,4 @@ I've consulted on projects at Dendreon, Windermere, ReallyEnglish, Circlace and 
 
 I'm sort of an old-school web geek, but all my serious efforts have been for commercial projects, often backend-focused,
 and all my personal stuff looks like crap, like my ancient and rusting blog and my made-from-a-hospital-bed
-decision-making crowdfunding experiment Ochokochoi.com.
+decision-making crowdfunding experiment [Ochokochoi.com](https://www.ochokochoi.com).

@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+main h1 { @apply text-5xl;  }
+main h2 { @apply text-4xl;  }
+main h3 { @apply text-3xl;  }
+main h4 { @apply text-2xl;  }
+main h5 { @apply text-xl;  }
+main h6 { @apply text-lg;  }
+
+main p { @apply text-base pt-4 text-justify;}
+main a:hover { @apply bg-blue-100; }
+main a:link {@apply underline text-gray-700;}
