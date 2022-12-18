@@ -2,7 +2,7 @@
 layout: _layout.slime
 ---
 div[id="top" class="flex flex-col sm:flex-row"]
-  main[class="sm:order-2 bg-white flex-auto min-w-64 mx-auto md:p-4"]
+  main[class="sm:order-2 bg-white flex-auto min-w-64 mx-auto sm:p-4"]
     a[href="#social_media" class="sm:hidden px-6 py-3 border-white text-stone-200 no-underline bg-red-900 rounded-lg hover:bg-red-500"] Jason's Social Media ↓
     article[class="mt-4 p-4 sm:mt-0"] = @children
   div[id="bio" class="sm:order-3 mx-max-w-sm p-4 min-w-16 max-w-32"]
