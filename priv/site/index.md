@@ -1,8 +1,23 @@
 ---
 layout: _landing.slime
-title: About Jason
+title: &TITLE About Jason Truesdell
+description: &DESCRIPTION "Jason's bio, social media links, and old school personal home page."
+image: &IMAGE "https://jason.jagaimo.com/images/content/jason-41840077-400w.png"
+meta:
+    twitter:
+        card: summary_large_image
+        site: "@jasntru"
+        creator: "@jasntru"
+        title: *TITLE
+        image: *IMAGE
+        description: *DESCRIPTION
+    og:
+        title: *TITLE
+        type: website
+        description: *DESCRIPTION
+        image: *IMAGE
+        url: "https://jason.jagaimo.com"
 ---
-
 # Jason Truesdell
 
 Resident of Kawasaki, Japan. I've been here since 2017.
