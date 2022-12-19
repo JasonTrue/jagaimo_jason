@@ -14,12 +14,12 @@ defmodule Jagaimo.TemplateHelpers do
     IO.inspect(env)
     twitter = get_in(env, [:meta, :twitter])
     |> Enum.map(fn {key, value} ->
-      ContentTag.render("meta", "", name: "twitter:#{key}", content: value )
+      ContentTag.render("meta", "", property: "twitter:#{key}", content: value )
     end)
 
     og = get_in(env, [:meta, :og])
               |> Enum.map(fn {key, value} ->
-      ContentTag.render("meta", "", name: "og:#{key}", content: value )
+      ContentTag.render("meta", "", property: "og:#{key}", content: value )
     end)
 
     twitter ++ og |> Enum.join()
