@@ -10,6 +10,13 @@ social_media:
     url: https://www.instagram.com/jasntru/
     icon: "/images/icons/networks/instagram-svgrepo-com.svg"
     ranking: 1
+  - network: twitter
+    url: https://twitter.com/JasnTru
+    icon: "https://cdn.cdnlogo.com/logos/t/96/twitter-icon.svg"
+    ranking: 1
+  - network: bluesky
+    text: jason.jagaimo.com
+    ranking: 1
   - network: facebook
     url: https://www.facebook.com/jasontrue
     text: jasontrue
@@ -36,7 +43,7 @@ social_media:
     ranking: 3
   - network: postnews
     name: Post.news
-    url: https://post.news/jasontrue
+    url: https://post.news/@/jasontrue
     text: jasontrue
     ranking: 3
   - network: flickr
