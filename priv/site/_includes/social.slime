@@ -15,6 +15,7 @@ social_media:
     icon: "https://cdn.cdnlogo.com/logos/t/96/twitter-icon.svg"
     ranking: 1
   - network: bluesky
+    url: https://bsky.app/profile/jason.jagaimo.com
     text: jason.jagaimo.com
     ranking: 1
   - network: facebook

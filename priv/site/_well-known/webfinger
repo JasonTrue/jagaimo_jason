@@ -1,0 +1,25 @@
+{
+  "subject":"acct:jasontrue@mastodon.social",
+  "aliases":
+  [
+    "https://mastodon.social/@jasontrue",
+    "https://mastodon.social/users/jasontrue"
+  ],
+  "links":
+  [
+    {
+      "rel":"http://webfinger.net/rel/profile-page",
+      "type":"text/html",
+      "href":"https://mastodon.social/@jasontrue"
+    },
+    {
+      "rel":"self",
+      "type":"application/activity+json",
+      "href":"https://mastodon.social/users/jasontrue"
+    },
+    {
+      "rel":"http://ostatus.org/schema/1.0/subscribe",
+      "template":"https://mastodon.social/authorize_interaction?uri={uri}"
+    }
+  ]
+}
