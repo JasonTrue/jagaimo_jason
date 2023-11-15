@@ -28,15 +28,23 @@ Germany.
 
 I like cooking. And eating. I'm vegetarian. But I'm in Japan, so I have a sense of humor about it.
 
-My work involves hacking Elixir and occasional C++ and Python at [IndustrialML](https://industrialml.com/), where I serve
-as Principal Software  Architect. On paper, I'm the managing director of the Japan subsidiary, IndustrialML GK.
-This means almost nothing  except when it comes to filing various bits of paperwork, because we're still very small.
-If you have a factory and it needs, to be buzzwordy, Digital Transformation, give us a call.
+I spent the last 4.5 years hacking Elixir and occasional C++ and Python at [IndustrialML](https://industrialml.com/), where I serve
+as Chief Technology Officer (until the end of December 2023 or so).
+I'm also the managing director of the Japan subsidiary, IndustrialML GK.
 
-We would like consulting clients. If your company has a problem and you need software to solve it, get in touch with
-me. We know how to build telemetry, alerting, reporting, IoT
-devices, image processing, and machine learning solutions. Our team has people with web, mobile, backend, and infra
-skills in Elixir, Ruby, C#, Dart/Flutter and beyond. [Build With IML](https://www.buildwithiml.com/) 
+Starting in December 2023, my focus is rebuilding my consulting practice. I have a network of experienced
+software developers, program managers, architects and UX professionals, and I'm happy to build you
+a global team to solve complex business problems. Our sweet spots include
+Digital Transformation, Business Process Automation, Industrial Monitoring and Process Management.
+My team has done web development, mobile development, IoT firmware, image and audio processing,
+and ML pipeline engineering.
+
+I'm also super happy to offer Fractional CTO services, help you set up your first Japan-based
+business and engineering office, or give you guidance on growing your team no matter where you are
+in the world.
+
+If your company has a problem and you need software to solve it, get in touch with
+me.
 
 In previous lives, I've worked for Microsoft, Zillow, The Seattle Times, Getty Images, and Comcast Technology Solutions.
 I've consulted on projects at Dendreon, Windermere, ReallyEnglish, Circlace and others.
