@@ -28,11 +28,11 @@ Germany.
 
 I like cooking. And eating. I'm vegetarian. But I'm in Japan, so I have a sense of humor about it.
 
-I spent the last 4.5 years hacking Elixir and occasional C++ and Python at [IndustrialML](https://industrialml.com/), where I serve
-as Chief Technology Officer (until the end of December 2023 or so).
-I'm also the managing director of the Japan subsidiary, IndustrialML GK.
+I spent the last 5 years hacking Elixir and occasional C++ and Python at [IndustrialML](https://industrialml.com/), where I serve
+as Chief Technology Officer (until the end of December 2023 or so), and before that, Principal Software
+Architect. I'm also the managing director of the Japan subsidiary, IndustrialML GK.
 
-Starting in December 2023, my focus is rebuilding my consulting practice. I have a network of experienced
+Right now my focus is rebuilding my consulting practice. I have a network of experienced
 software developers, program managers, architects and UX professionals, and I'm happy to build you
 a global team to solve complex business problems. Our sweet spots include
 Digital Transformation, Business Process Automation, Industrial Monitoring and Process Management.

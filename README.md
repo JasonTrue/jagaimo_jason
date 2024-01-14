@@ -36,7 +36,7 @@ This will generate all the static content and drop it in a folder at the root of
 
 Keep in mind that, in the current incarnation, `mix still.dev` generates a static `.css` file _in_ the repository that
 must be checked in if you would like to see the changes upon deployment. I'll probably do something about that in the future,
-but it suits my current workflow. I believe the "right" thing to do would be to move the generated css files
+but it suits my current workflow. The "right" thing to do would be to move the generated css files
 directly to the
 
 ## Contributing

@@ -14,7 +14,7 @@ config :still,
   watchers: [
     npx: ["tailwindcss", "-i", "global.css", "-o", "../css/global.css", "--watch",  cd: "priv/site/assets"] #"--minify",
   ],
-  pass_through_copy: [~r/\.svg$/],
+  pass_through_copy: [~r/\.svg$/, {"_well_known", ".well_known"}],
   preprocessors: %{
 #    ".css" => [StillTailwind.PostcssPreprocessor, OutputPath, Save],
     ".svg" => [OutputPath, Save]
