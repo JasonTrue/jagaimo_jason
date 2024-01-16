@@ -28,9 +28,9 @@ Germany.
 
 I like cooking. And eating. I'm vegetarian. But I'm in Japan, so I have a sense of humor about it.
 
-I spent the last 5 years hacking Elixir and occasional C++ and Python at [IndustrialML](https://industrialml.com/), where I serve
-as Chief Technology Officer (until the end of December 2023 or so), and before that, Principal Software
-Architect. I'm also the managing director of the Japan subsidiary, IndustrialML GK.
+I spent the last 5 years hacking Elixir and occasional C++ and Python at [IndustrialML](https://industrialml.com/), where I served
+as Chief Technology Officer, and before that, Principal Software
+Architect, and as managing director of the Japan subsidiary, IndustrialML GK.
 
 Right now my focus is rebuilding my consulting practice. I have a network of experienced
 software developers, program managers, architects and UX professionals, and I'm happy to build you
@@ -45,6 +45,9 @@ in the world.
 
 If your company has a problem and you need software to solve it, get in touch with
 me.
+
+I'm also starting to think about some product work, namely, ecommerce related to specialty foods/crafts,
+and some industrial video capture/computer vision software.
 
 In previous lives, I've worked for Microsoft, Zillow, The Seattle Times, Getty Images, and Comcast Technology Solutions.
 I've consulted on projects at Dendreon, Windermere, ReallyEnglish, Circlace and others.
