@@ -47,7 +47,8 @@ If your company has a problem and you need software to solve it, get in touch wi
 me.
 
 I'm also starting to think about some product work, namely, ecommerce related to specialty foods/crafts,
-and some industrial video capture/computer vision software.
+and some industrial video capture/computer vision software. If you're interested in collaborating
+on something near these spaces, let's talk!
 
 In previous lives, I've worked for Microsoft, Zillow, The Seattle Times, Getty Images, and Comcast Technology Solutions.
 I've consulted on projects at Dendreon, Windermere, ReallyEnglish, Circlace and others.
